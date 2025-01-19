@@ -7,10 +7,9 @@ import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className=" bg-neutral-950">
+    <div className=" ">
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        {/* <Route path="/blog" element={<BlogPage />} /> */}
       </Routes>
     </div>
   );
